@@ -66,7 +66,8 @@ if __name__ == "__main__":
         "./BalloonsAI/Screenshots/MonkeyCards/tack_shooter.png",  
     ]
 
-    screenshot_file_path = take_screenshot(monkey_selection_coordinates, screenshot_dir)
+    # screenshot_file_path = take_screenshot(monkey_selection_coordinates, screenshot_dir)
+    screenshot_file_path = 'C:/Users/rhysf/OneDrive/Desktop/Coding Projects/Python Projects/BalloonsAI/Screenshots/bounding_box_screenshot.png'
     output_file_path = create_bounding_box(screenshot_file_path, template_paths)
 
     print(f"Bounding boxes drawn and saved to {output_file_path}")
